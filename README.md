@@ -1,6 +1,8 @@
 ## JL Auto Detail
 This is a website I have been implmenting for my father's car detailing business.
 
+I have created the entire frontend and created a database locally with mySQL.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
