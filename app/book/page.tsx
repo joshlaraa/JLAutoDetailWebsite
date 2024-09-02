@@ -7,7 +7,14 @@ const Bookpage = () => {
       title: "Bronze Package",
       description:
         "Basic exterior and interior cleaning to give your car a refreshed look.",
-      features: ["Exterior Wash", "Wheels & Tires", "Interior Wipe Down", "Interir Vacuum", "Windows", "Doorjams"],
+      features: [
+        "Exterior Wash",
+        "Wheels & Tires",
+        "Interior Wipe Down",
+        "Interir Vacuum",
+        "Windows",
+        "Doorjams",
+      ],
       price: "$95",
       link: "https://example.com/book-bronze",
     },
@@ -21,7 +28,7 @@ const Bookpage = () => {
         "Paint Selant",
         "Interior Wipe Down",
         "Interior Vaccum",
-        "Windows & Doorjams"
+        "Windows & Doorjams",
       ],
       price: "$150",
       link: "https://example.com/book-gold",
@@ -30,7 +37,14 @@ const Bookpage = () => {
       title: "Diamond Package",
       description:
         "A complete premium package for exterior and interior detailing.",
-      features: ["Exterior Wash","Claybar & Paint Selant","Wheels & Tires","Interior Vaccum", "Shampoo & Extraction","Engine Detail"],
+      features: [
+        "Exterior Wash",
+        "Claybar & Paint Selant",
+        "Wheels & Tires",
+        "Interior Vaccum",
+        "Shampoo & Extraction",
+        "Engine Detail",
+      ],
       price: "$245",
       link: "https://example.com/book-diamond",
     },
@@ -38,7 +52,14 @@ const Bookpage = () => {
       title: "Interior Package",
       description:
         "Focused on cleaning and detailing the interior of your vehicle for a pristine look.",
-      features: ["Interior Vacuum", "Carpet Shampoo & Extraction", "Seat Shampoo & Extraction","UV Protector","Doorjams","Inner Windows"],
+      features: [
+        "Interior Vacuum",
+        "Carpet Shampoo & Extraction",
+        "Seat Shampoo & Extraction",
+        "UV Protector",
+        "Doorjams",
+        "Inner Windows",
+      ],
       price: "$175",
       link: "https://example.com/book-interior",
     },
@@ -46,7 +67,14 @@ const Bookpage = () => {
       title: "RV Package",
       description:
         "Specialized detailing package tailored for RVs, covering just the exterior.",
-      features: ["Exterior Wash", "Spray Ceramic Wax", "Wheels & Tires", "Roof Cleaning","Windows","Plastic Shine"],
+      features: [
+        "Exterior Wash",
+        "Spray Ceramic Wax",
+        "Wheels & Tires",
+        "Roof Cleaning",
+        "Windows",
+        "Plastic Shine",
+      ],
       price: "$325",
       link: "https://example.com/book-rv",
     },
@@ -54,10 +82,17 @@ const Bookpage = () => {
       title: "CAN-AM Package",
       description:
         "Detailing package specifically designed for CAN-AM vehicles, ensuring a thorough clean and shine.",
-      features: ["Exterior Wash", "Wheels & Tires", "Spray Ceramic Wax", "Interior Wipe Down", "",""],
+      features: [
+        "Exterior Wash",
+        "Wheels & Tires",
+        "Spray Ceramic Wax",
+        "Interior Wipe Down",
+        "",
+        "",
+      ],
       price: "$125",
       link: "https://example.com/book-can-am",
-    },    
+    },
   ];
 
   return (
