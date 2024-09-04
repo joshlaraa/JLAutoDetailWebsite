@@ -5,7 +5,7 @@ export async function POST(req: NextRequest) {
     try {
         const { name, phone, email, message } = await req.json()
 
-        const newContactRequest = await db.conactRequest.create({
+        const newContactRequest = await db.contactRequest.create({
             data: {
                 name,
                 phone,
