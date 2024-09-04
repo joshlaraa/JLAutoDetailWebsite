@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model ConactRequest {
+model ContactRequest {
   id        String   @id @default(auto()) @map("_id") @db.ObjectId
   name      String
   phone     String
